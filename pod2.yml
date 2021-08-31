@@ -13,5 +13,3 @@ spec:
       containerPort: 80
   - name: k8s-demo
     image: afakharany/watcher
-    ports:
-    - name: nodejs-port
