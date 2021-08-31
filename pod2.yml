@@ -6,10 +6,10 @@ metadata:
     app: assignment2
 spec:
   containers:
-  - name: k8s-demo
+  - name: nginx-demo
     image: nginx
     ports:
     - name: nodejs-port
       containerPort: 80
-  - name: k8s-demo
+  - name: watcher-demo
     image: afakharany/watcher
